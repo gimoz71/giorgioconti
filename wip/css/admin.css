@@ -1,0 +1,149 @@
+@CHARSET "UTF-8";
+#login {
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 150px;
+	margin-left: -150px;
+	margin-top: -75px;
+	z-index: 3;
+	background: url(../images/bg_grad_white.png) 0 0;
+	padding: 20px;
+	/* filter: alpha(opacity=80);
+	-moz-opacity:.80;
+	opacity:.80;*/
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-radius: 5px;
+}
+#login input.fields {
+	background: #fff;
+	border: dotted 1px #666;
+	width: 150px;
+}
+#login .button {
+	background: #000;
+	color: #fff;
+	border: none;
+}
+#contenitore {
+	position:absolute;
+	top: 150px;
+	background: url(../images/bg_grad_white.png) 0 0;
+	margin: 0 40px;
+	z-index: 3;
+	padding: 20px;
+	/* filter: alpha(opacity=80);
+	-moz-opacity:.80;
+	opacity:.80;*/
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-radius: 5px;
+}
+#selezionato {
+	background-color: #ffffff;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-radius: 5px;
+}
+#selezionato a {
+	color: #000000;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-radius: 5px;
+}
+.riga_form {
+	margin-top: 10px;
+	clear: both;
+}
+
+form.lista {
+	background: url(../images/bg_grad_white.png) 0 0;
+	float: left;
+	border: solid 1px #666;
+	padding: 10px;
+	margin: 10px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-radius: 5px;
+}
+
+.item {
+	float: left;
+	border-right: solid 10x #333;
+}
+
+.foto {
+	float: left;
+	width: 120px;
+	height: 80px;
+	margin-right: 10px;
+	padding: 2px;
+	border: solid 1px #666;
+}
+
+.title_gallery {
+	float: left;
+	width: 120px;
+	margin-right: 10px;
+}
+
+.title_gallery h3 {
+	line-height: 1.2em;	
+}
+.campo_inserimento {
+	float: left;	
+}
+
+.ok {
+	color: #060;
+	background: url(../images/icon_ok.png) no-repeat left center;
+	padding: 4px 0 4px 30px;
+	font-size: 20px;
+}
+
+textarea, input {
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+input.invia {
+	font-size: 16px;
+	padding: 10px 20px;
+}
+
+#categorie {
+	left: 150px;	
+}
+
+	

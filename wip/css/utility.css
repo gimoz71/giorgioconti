@@ -1,0 +1,81 @@
+/*---------------------------------*/
+/* UTILITY */
+/*---------------------------------*/
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+img.left {
+	float: left;
+	margin-right: 5px;
+}
+img.right {
+	float: right;
+	margin-left: 5px;
+}
+.hr {
+	margin: 0px 0px;
+	padding: 0px;
+	border-top:1px solid #e3e3e3;
+	/*border-bottom:1px solid #ccc;*/
+	border-left:0px;
+	border-right:0px;
+	line-height:0px;
+	height: 1px;
+	font-size: 0px;
+	display:block;
+}
+
+
+.light {
+	border-top: 1px dashed #e3e3e3;
+	/*border-bottom: 1px dashed #fff;*/
+}
+.white {
+	border-color: #ffffff;
+}
+.dark {
+	border-color: #999999;
+}
+.red {
+	border-color: #ff3300;
+}
+.big {
+	border-bottom-width: 2px;
+}
+.clearer {
+	line-height: 0px;
+	height: 0px;
+	margin: 0;
+	font-size: 0;
+	clear: both;
+}
+.spacer {
+	margin: 0;
+	font-size: 0;
+	clear:none;
+}
+.five {
+	line-height: 5px;
+	height: 5px;
+}
+.ten {
+	line-height: 10px;
+	height: 10px;
+}
+.twenty {
+	line-height: 20px;
+	height: 20px;
+}
+.thirty {
+	line-height: 30px;
+	height: 30px;
+}
+.forty {
+	line-height: 40px;
+	height: 40px;
+}

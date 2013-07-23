@@ -1,0 +1,10 @@
+@import url(style.css) screen;
+
+#categorie {
+	left: 200px;	
+}
+#title h2 {
+	width: 163px;
+	height: 26px;
+	background:url(../images/fotografo.png) no-repeat center center;
+}

@@ -1,0 +1,18 @@
+###################
+RewriteEngine On
+RewriteBase / 
+RewriteCond %{HTTP_HOST} workinprogress.ecoseekr.eu
+RewriteCond %{REQUEST_URI} !wip/
+RewriteRule ^(.*)$ /wip/$1 [L]
+
+RewriteCond %{HTTP_REFERER} !^http://(.+\.)?ecoseekr\.eu/ [NC]
+RewriteCond %{HTTP_REFERER} !^$
+
+RewriteRule ^images\/.*\.(jpeg|jpg|gif|bmp|png)$ /no_hotlink/no_hotlink.jpg [L]
+ 
+###################
+ErrorDocument 400 /errore/errore400.html
+ErrorDocument 401 /errore/errore401.html
+ErrorDocument 403 /errore/errore403.html
+ErrorDocument 404 /errore/errore404.html
+ErrorDocument 500 /errore/errore500.html
