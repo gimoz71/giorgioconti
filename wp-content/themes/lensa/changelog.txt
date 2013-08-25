@@ -1,0 +1,18 @@
+/*
+    Theme Name: Lensa
+    Theme URI: http://demo.colorlabsproject.com/lensa/
+    Author: ColorLabs & Company
+    Author URI: http://colorlabsproject.com
+    Release Date: 30 November 2012
+    Designer: Andrie Pasca Hendradewa
+    Requirements: WordPress 3.0 or higher, PHP 5
+    Compatibility: WordPress 3.3.1
+    Tags: photography, instagram, blog, full-screen, slider, responsive
+*/
+
+/**** Changelog ****/
+
+"Please backup your theme pack files at first before you update the theme into the latest version"
+ 
+2012.11.30 - version 1.0
+ * First release!
